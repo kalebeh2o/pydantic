@@ -48,7 +48,8 @@ class ObrigacaoAcessoriaBase(BaseModel):
         json_schema_extra={
             "example": {
                 "nome": "Declaração de Impostos",
-                "periodicidade": "mensal"
+                "periodicidade": "mensal",
+                "empresa_id": 1
             }
         }
     )
